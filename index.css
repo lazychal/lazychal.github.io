@@ -1,0 +1,14 @@
+body {
+								  background-color:	#BCC1FF;
+								  margin-left: 20%;
+								  margin-right: 20%;
+								  border: 5px dotted gray;
+								  padding: 10px 10px 10px 10px;
+								  font-family: sans-serif;
+						
+						}
+	h1 { color: #592D11; border-bottom: 5px solid black; }
+	
+	h6 { color: #592D11; text-decoration: blink; }
+	
+	p { color: #FF2D11; }
