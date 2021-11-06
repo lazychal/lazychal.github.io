@@ -1,0 +1,112 @@
+
+body{
+	font-family: Arial, Helvetica, sans-serif;	
+	background: #1d1b1b;
+	margin: 0;
+	color: rgba(255,255,255,0.6);
+}
+
+#wrapper{
+	display: flex;
+	flex-direction: column;
+}
+#header{
+	width: 100%;
+    height: 10vh;
+    background: rgb(51 49 49 / 50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#content{
+	width: 100%;
+    height: 83vh;
+	
+}
+#img-wrapper{
+	position: relative;
+}
+#content-title{
+	position: absolute;
+    top: 45%;
+    left: 3%;
+    font-size: 30px;
+	text-shadow: rgba(255,255,255,0.6) 2px 3px 4px;
+}
+#text-wrapper{
+	display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+	
+}
+#first-text, #second-text{
+	width: 40%;
+	background: rgb(51 49 49 / 50%);
+	box-shadow: rgba(255,255,255,0.6) 0 0 1px 0px;
+}
+#second-text{
+	
+}
+#text-wrapper li{
+	font-size: 20px;
+	list-style: none; 
+	background: url(img/4047317-auto-automobile-car-sedan-transport-transportation-vehicle_113507.svg) no-repeat left center;
+	padding-left: 35px;
+}
+#background-img{
+	width: 100%;
+}
+#footer{
+	width: 100%;
+	height: 7vh;
+	background: rgb(51 49 49 / 50%);
+	display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 670px) {
+    /* body { background: #fc0; } */
+	h1{
+		font-size: 20px;
+	}
+	#text-wrapper {
+		margin-top: 20px;
+		flex-direction: column;
+		align-items: center;
+	}
+	#first-text, #second-text {
+		width: 65%;
+		margin-bottom: 20px;
+		height: 25vh;
+	}
+	#footer {
+		flex-direction: column;
+	}
+	ul{
+		margin-left: 5%;
+	}
+}
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 480px) {
+  #text-wrapper li{
+	  font-size: 40px;
+	  padding-left: 65px;
+  }
+  #text-wrapper{
+	 flex-direction: column;
+	 align-items: center;
+	 margin-top: 140px;
+ }
+ #first-text, #second-text{
+	 width: 80%;
+ }
+ #first-text{
+	 margin-bottom: 50px;
+ }
+ ul{
+	 margin-left: 50px;
+ }
+}
